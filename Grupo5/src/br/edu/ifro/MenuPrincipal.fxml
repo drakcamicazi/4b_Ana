@@ -7,10 +7,15 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="234.0" prefWidth="394.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="br.edu.ifro.MenuPrincipalController">
+<AnchorPane id="AnchorPane" prefHeight="324.0" prefWidth="439.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.MenuPrincipalController">
     <children>
-        <Button fx:id="button" layoutX="277.0" layoutY="162.0" onAction="#handleButtonAction" text="Clique aqui" />
-        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
-      <JFXButton layoutX="92.0" layoutY="67.0" />
+        <Button fx:id="btnSoma" layoutX="277.0" layoutY="162.0" onAction="#Soma" text="Soma" />
+        <Label fx:id="label" layoutX="128.0" layoutY="145.0" minHeight="16" minWidth="69" />
+      <TextField fx:id="txtNumero1" layoutX="37.0" layoutY="54.0" />
+      <TextField fx:id="txtNumero2" layoutX="37.0" layoutY="120.0" />
+      <Label layoutX="36.0" layoutY="100.0" text="Numero 2" />
+      <Label layoutX="36.0" layoutY="39.0" text="Numero 1" />
+      <Label layoutX="37.0" layoutY="162.0" text="Resultado" />
+      <TextField fx:id="txtResultado" layoutX="38.0" layoutY="182.0" />
     </children>
 </AnchorPane>
