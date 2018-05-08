@@ -64,11 +64,10 @@ catch(IOException e){
 
 }
     }
-
+   
     @FXML
     private void fecharProjeto(ActionEvent event) {
-     Stage stage = (Stage) fechar.getScene().getWindow();
-    stage.close();
+   
 }
     
 }
